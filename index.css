@@ -1,0 +1,189 @@
+body {
+  margin: 0;
+  font-family: 'Source Sans Pro', Arial, Helvetica, sans-serif;
+  font-size: 1.2rem;
+  color: #333;
+}
+
+.resume {
+  margin: 0 auto;
+  display: flex;
+  width: 1200px;
+}
+
+.name {
+  margin-top: 0;
+}
+
+.sidebar {
+  padding: 1em 3em;
+  width: 100%;
+  min-height: 100vh;
+  flex: 1;
+  background-color: #663399;
+  color: #fff;
+}
+
+.main-content {
+  padding: 1em 1em 1em 3em;
+  width: 100%;
+  height: 100%;
+  flex: 4;
+}
+
+svg {
+  stroke: #fff;
+  background-color: #663399;
+  stroke-width: 2;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  fill: none;
+}
+
+h1 {
+  font-size: 3rem;
+  font-weight: 500;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+.me {
+  text-align: center;
+}
+
+.me > img {
+  width: 200px;
+  height: 200px;
+}
+
+.job-title {
+  font-size: 1.5rem;
+}
+
+.contact ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.contact li a {
+  display: flex;
+  color: #fff;
+  padding-bottom: 1rem;
+  align-items: center;
+}
+
+.contact a:link, .contact a:visited {
+  color: #fff;
+  text-decoration: none;
+}
+
+.contact li svg {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+  stroke-width: 1;
+}
+
+.side-by-side {
+  display: flex;
+  border-left: 2px solid #663399;
+  padding: 0 2rem;
+}
+
+.side-by-side > div {
+  flex: 1;
+  margin-right: 1rem;
+}
+
+.skills-list li {
+  margin-bottom: 10px;
+}
+
+.dot {
+  margin-left: 5px;
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  border-radius: 15px;
+  background-color: #ccc;
+}
+
+.dot.fill {
+  background-color: #663399;
+}
+
+.main-content h2 {
+  display: flex;
+  align-items: center;
+  margin-left: -25px;
+}
+
+.main-content h2 > svg {
+  padding: 10px;
+  border-radius: 35px;
+  margin-right: 10px;
+  width: 35px;
+  height: 35px;
+  overflow: visible;
+}
+
+.experience .work-item {
+  padding: 0 2rem;
+  border-left: 2px solid #663399;
+}
+
+.experience .work-item ul {
+  margin-bottom: 0;
+}
+
+.experience .work-item h3 {
+  margin-top: 0;
+  padding-top: 40px;
+}
+
+.experience h3::before {
+  content: "";
+  display: block;
+  border-radius: 25px;
+  border: 2px solid #663399;
+  background-color: #fff;
+  background-size: 25px 25px;
+  width: 25px;
+  height: 25px;
+  float: left;
+  margin: 0 0 0 -46px;
+}
+
+.logo::before {
+  content: "";
+  display: block;
+  background-repeat: no-repeat;
+  background-size: 25px 25px;
+  width: 25px;
+  height: 25px;
+  float: left;
+  margin: 0 10px 0 0;
+}
+
+.rea::before {
+  background-image: url("./rea-logo.png");
+}
+
+.pw::before {
+  background-image: url("./pw-logo.png");
+}
+
+.apple::before {
+  background-image: url("./apple-logo.png");
+}
+
+.griffith::before {
+  background-image: url("./griffith-logo.png");
+}
+
+.uow::before {
+  background-image: url("./uow-logo.png");
+}
